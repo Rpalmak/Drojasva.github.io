@@ -490,5 +490,31 @@ span {
  }
 
 
+ .typed-cursor {
+    font-size: 25px;
+    color: var(--text-color);
+    margin-left: 5px; /* Ajusta el margen según sea necesario */
+}
+
+
+.typed-text.d-none {
+    display: none;
+}
+
+.typed-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+#element-typed
+{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--main-color);
+    /* -webkit-text-stroke: .7px var(--main-color); */  
+}
+
 
  
+
+  
